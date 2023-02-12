@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+.login_card{
+
+  width: 400px;
+  /*border:none;*/
+
+}
+
+.navbar{
+	box-shadow: 0px 4px 8px 0px grey;
+}
+
+.btr{
+
+  border-top-right-radius: 5px !important;
+}
+
+
+.btl{
+
+  border-top-left-radius: 5px !important;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+
+.btn-dark:hover {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+
+.nav-pills{
+
+  display:table !important;
+  width:100%;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+        border-bottom: 1px solid #0d6efd40;
+
+}
+
+.nav-item{
+      display: table-cell;
+       background: #0d6efd2e;
+}
+
+
+.form{
+
+  padding: 10px;
+      height: auto;
+}
+
+.form input{
+
+  margin-bottom: 12px;
+  border-radius: 3px;
+}
+
+
+.form input:focus{
+
+  box-shadow: none;
+}
+
+
+.form button{
+
+  margin-top: 20px;
+}
+
+.logo{
+	font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    color:var(--bs-navbar-brand-color) !important;
+}
+
+.launch {
+    height: 50px;
+}
+.close {
+    font-size: 21px;
+    cursor: pointer;
+}
+#CheckOutModal .modal-body {
+    height: auto;
+}
+#CheckOutModal form-control {
+    border-bottom: 1px solid #eee !important;
+    border: none;
+    font-weight: 600;
+}
+#CheckOutModal form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #8bbafe;
+    outline: 0;
+    box-shadow: none;
+}
+.inputbox {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.inputbox span {
+    position: absolute;
+    top: 7px;
+    left: 11px;
+    transition: 0.5s;
+}
+.inputbox i {
+    position: absolute;
+    top: 13px;
+    right: 8px;
+    transition: 0.5s;
+    color: #3f51b5;
+}
+.inputbox input:focus ~ span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px;
+}
+.inputbox input:valid ~ span {
+    transform: translateX(-0px) translateY(-15px);
+    font-size: 12px;
+}
+.pay button {
+    height: 47px;
+    border-radius: 37px;
+}
+.loading{
+	display:none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
